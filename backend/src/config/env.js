@@ -24,7 +24,7 @@ export const env = {
     accessExpiresIn: process.env.JWT_ACCESS_EXPIRES_IN || '15m',
     refreshExpiresIn: process.env.JWT_REFRESH_EXPIRES_IN || '7d'
   },
-  corsOrigin: process.env.CORS_ORIGIN || 'https://xaydungweb.vercel.app/',
+  corsOrigin: process.env.CORS_ORIGIN || 'https://xaydungweb.vercel.app',
   ai: {
     geminiApiKey: process.env.GEMINI_API_KEY || '',
     geminiModel: process.env.GEMINI_MODEL || 'gemini-1.5-flash'
